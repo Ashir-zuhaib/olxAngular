@@ -1,0 +1,26 @@
+.card {
+  width: 400px;
+  /* height: 400px; */
+}
+.container {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.cardImage {
+  width: 100%;
+  height: 250px;
+}
+.details {
+  vertical-align: middle;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardTitle {
+  font-size: 20px;
+  /* align-items: flex-start; */
+}
+.favIcon {
+  vertical-align: middle;
+}

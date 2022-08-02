@@ -1,0 +1,77 @@
+.topBtn {
+  width: 30%;
+  padding-left: 7%;
+  padding-right: 7%;
+
+  /* margin-left: 10%; */
+  /* display: flex;
+  justify-content: space-between; */
+}
+.logo {
+  font-size: 44px;
+  font-weight: bold;
+}
+.inputs {
+  padding-left: 7%;
+  padding-right: 7%;
+  /* padding-left: 10%; */
+  display: inline-block;
+  width: 100%;
+  background-color: azure;
+}
+.location {
+  height: 50px;
+  /* margin-top: 20px; */
+}
+.locationInput {
+  display: inline-block;
+  height: 45px;
+  margin-left: 2%;
+  border: groove;
+  border-width: 2px;
+  border-color: rgb(28, 27, 27);
+  border-radius: 5px;
+}
+.searchSection {
+  width: 50%;
+  display: inline-block;
+  margin-left: 1%;
+  /* height: 45px; */
+}
+.search {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 80%;
+  display: inline-block;
+  height: 45px;
+}
+.searchIcon {
+  text-align: center;
+  height: 40px;
+  padding-top: 4px;
+  width: 100%;
+  color: #fff;
+}
+.searchBtn {
+  border: 2px groove;
+  border-color: black;
+  background-color: rgb(15, 15, 15);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.loginBtn {
+  display: inline-block;
+}
+.sell {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(22, 41, 41);
+  background-color: #fff;
+  border: groove;
+  border-width: 4px;
+  border-radius: 20px;
+  border-color: aqua;
+  border-top-color: blue;
+  border-bottom-color: yellow;
+}

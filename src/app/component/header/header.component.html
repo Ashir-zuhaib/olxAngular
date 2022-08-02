@@ -1,0 +1,49 @@
+<mat-toolbar-row class="navbar">
+    <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button> -->
+    <div class="topBtn">
+        <span style="font-size:28px;font-weight: bold; color: blue;">
+            olx
+        </span>
+
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon>directions</mat-icon>
+            <span style="margin-left:20px;">Motors</span>
+        </button>
+        <button style="margin-left: 30px ;" mat-icon-button class="example-icon"
+            aria-label="Example icon-button with share icon">
+            <mat-icon>apartment</mat-icon>
+            <span style="margin-left:20px; font-size: 14px;">Property</span>
+        </button>
+    </div>
+
+    <section class="inputs">
+        <span class="logo">olx</span>
+        <section class="locationInput">
+            <mat-form-field appearance="fill">
+                <mat-select class="location" name="periodicElement" [(value)]="selectedElement"
+                    placeholder="Periodic Element">
+                    <mat-option [value]="'pk'">Pakistan</mat-option>
+                    <mat-option [value]="'Cu'">use current Location</mat-option>
+
+                </mat-select>
+            </mat-form-field>
+        </section>
+        <!-- <mat-form-field appearance="outline"> -->
+        <section class="searchSection">
+            <input type="text" class="search" placeholder="Find Cars, Mobile Phones and more">
+            <button class="searchBtn">
+                <mat-icon class="searchIcon">search</mat-icon>
+            </button>
+        </section>
+        <section class="loginBtn">
+            <button mat-button>Login</button>
+            <button class="sell" mat-button color="accent">+SELL</button>
+        </section>
+        <!-- </mat-form-field> -->
+    </section>
+
+
+
+</mat-toolbar-row>
