@@ -10,6 +10,7 @@
 .logo {
   font-size: 44px;
   font-weight: bold;
+  text-decoration: none;
 }
 .inputs {
   padding-left: 7%;
@@ -74,4 +75,7 @@
   border-color: aqua;
   border-top-color: blue;
   border-bottom-color: yellow;
+}
+.unauthDiv {
+  display: inline-block;
 }

@@ -1,0 +1,30 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+        <mat-card-header>
+            <mat-card-title>Sell Details</mat-card-title>
+        </mat-card-header>
+        <form class="example-form">
+            <div>
+                <div class="example-full-width">
+                    <h3>Title</h3>
+                    <input type="text" [(ngModel)]="title" class="email form-control" name="username">
+                </div>
+                <div class="example-full-width">
+                    <h3>Description</h3>
+                    <input type="text" [(ngModel)]="desc" class="email" name="email">
+                </div>
+                <div class="example-full-width">
+                    <h3>Price
+                    </h3>
+                    <input type="tel" [(ngModel)]="price" class="email" name="email">
+                </div>
+                <div class="example-full-width">
+                    <h3>Choose Image
+                    </h3>
+                    <input type="file" (change)="uploadFile($event)" class="file" name="file">
+                </div>
+            </div>
+            <button mat-stroked-button color="accent" class="btn-block" (click)="add()">Sale</button>
+        </form>
+    </mat-card>
+</div>

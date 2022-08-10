@@ -3,9 +3,9 @@
         <mat-icon>menu</mat-icon>
     </button> -->
     <div class="topBtn">
-        <a routerLink="/" style="font-size:28px;font-weight: bold; text-decoration: none;  color: blue;">
+        <span style="font-size:28px;font-weight: bold; color: blue;">
             olx
-        </a>
+        </span>
 
         <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
             <mat-icon>directions</mat-icon>
@@ -19,7 +19,7 @@
     </div>
 
     <section class="inputs">
-        <a class="logo" routerLink="/">olx</a>
+        <span class="logo">olx</span>
         <section class="locationInput">
             <mat-form-field appearance="fill">
                 <mat-select class="location" name="periodicElement" [(value)]="selectedElement"
@@ -37,20 +37,11 @@
                 <mat-icon class="searchIcon">search</mat-icon>
             </button>
         </section>
-        <div class="loginBtn" *ngIf="!userData else auth">
-            <button routerLink="/login" mat-button>Login {{userData}}</button>
-            <button class="sell" routerLink="/sellform" mat-button color="accent">+SELL</button>
-
-        </div>
-        <ng-template class="unauthDiv" #auth>
-            <span>
-                <mat-icon>home</mat-icon>
-                <mat-icon>home</mat-icon>
-                <mat-icon>home</mat-icon>
-            </span>
-            <button class="sell" mat-button routerLink="/sellform" color="accent">+SELL</button>
-            <button class="sell" routerLink="/" mat-button color="accent">Logout</button>
-        </ng-template>
+        <section class="loginBtn">
+            <!-- <button mat-button>Login</button> -->
+            <button class="sell" routerLink="/signup" mat-button color="accent">+SELL</button>
+        </section>
+        <!-- </mat-form-field> -->
     </section>
 
 
